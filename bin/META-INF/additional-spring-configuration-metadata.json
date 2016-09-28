@@ -1,0 +1,5 @@
+{"properties": [{
+  "name": "helloworld.message",
+  "type": "java.lang.String",
+  "description": "The externalized message."
+}]}
