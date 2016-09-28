@@ -12,9 +12,6 @@
 		<property name="messageProvider" ref="provider" />
 	</bean>
 
-	<!-- <bean id="provider" class="ch.fhnw.edu.eaf.provider.WillkommenProvider" 
-		/> -->
-
 	<bean id="provider"
 		class="ch.fhnw.edu.eaf.provider.ExternalizedConstructorHelloWorldMessageProvider">
 		<constructor-arg name="message" value="${helloworld.message}" />
